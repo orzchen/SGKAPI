@@ -4,7 +4,7 @@
     $get_secid_code = $_GET['code'];
 
     // echo $get_secid_code;
-    if($get_secid_code != null && $get_secid_code == 'cl12138')
+    if($get_secid_code != null && $get_secid_code == '验证码')
     {
         $str = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 		$string = substr(str_shuffle($str), mt_rand(0,37) , 25);
